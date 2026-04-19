@@ -1,0 +1,297 @@
+body{
+    /*margin: 0;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 32, 177);;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.service{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.service h1{
+    color: #bf0000;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card{
+    background-color: #fea3d5;
+    width: 247px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transform: transform 0.7s;
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+}
+
+.service-card h2{
+    color: #0077cc;
+}
+
+.service-card p{
+    font-size:large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+}
+
+
+
+
+
+
+.images-container{
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-card{
+
+
+   border-radius: 10px;
+    border-width: 2px;
+   background-color: #fea3d5;
+   text-align: center;
+   align-items: center;
+   width: 380px;
+   margin:5px;
+
+}
+
+
+
+.image-card p{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:#0077cc;
+}
+
+.image-card img{
+
+    margin: 10px;
+    border-radius: 5px;
+}
+   
+    .container{
+min-height: 100vh;
+background: #fea3d5;
+display: flex;
+align-items:center;
+background:url("bg.png") no-repeat center center/cover;
+
+}
+.container form{
+width: 670px;
+height: 400px;
+display: flex;
+justify-content: center;
+box-shadow: 20px 30px 50px rgb( 0,0,0);
+border-radius: 15px;
+background:rgba(255,255,255,0.1);
+    
+flex-wrap:wrap;
+}
+
+.container form h1{
+color: #fea3d5;
+font-weight: 500;
+margin-top: 20px;
+text-align: center;
+}
+
+.contact form input{
+width: 290px;
+height: 40px;
+padding-left: 10px;
+outline: none;
+border: none;
+font-size: 20px;
+margin-bottom: 10px;
+background: none;
+border-bottom:  2px solid white;
+}
+.container form input::placeholder{
+
+    color: beige;
+}
+
+.container form #LastName,
+.container form #mobile{
+margin-left: 20px;
+
+}
+
+.container form h4{
+color: beige;
+font-weight: 300px;
+width: 600px;
+margin-top: 20px;
+}
+
+.container form textarea{
+background: none;
+border: none;
+border-bottom: 2px solid #fff;
+color: #171617;
+font-weight: 200;
+font-size: 15px;
+padding: 10px;
+outline: none;
+min-width: 300px;
+max-width: 400px;
+min-height: 80px;
+max-height: 80px;
+}
+textarea ::-webkit-scrollbar{
+
+ width: 1em;   
+}
+textarea ::-webkit-scrollbar-thumb{
+background-color: rgb(255, 32, 177);
+}
+.container form #button{
+    border: none;
+background: #fff;
+border-radius: 5px;
+margin-top: 20px;
+font-weight: 600;
+font-size: 20px;
+color: black;
+width: 100px;
+padding: 0;
+margin-right: 500px;
+margin-bottom: 30px;
+transition: 0,3s;
+
+}
+.container form #button :hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+form{
+
+
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.row {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+
+
+
+
+}
+.row input{
+
+    
+    height: 50px;
+    width:60%;
+
+    margin: 10px;
+    text-align: center;
+    
+   
+   
+  
+}
+
+
+textarea{
+
+
+    height: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+
+#button{
+
+    height: 65px;
+    width: 200px;
+}
+
+
+.contacts-container{
+ background-color: #fea3d5;
+    width: 247px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transform: transform 0.7s;
+}
+img{
+width: 350px;
+max-width:400px;
+object-fit: cover;
+vertical-align: middle;
+
+
+}
+.wrapper{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+display:flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+gap: 5rem;
+flex: 1;
+
+}
+.logo{
+
+    width: 100%;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgb(255, 32, 177);
+
+}
+.logo img{
+height: 300px;
+width: 300px;
+border-radius: 50%;
+border: 10px solid rgb(255, 32, 177);
+
+} 
