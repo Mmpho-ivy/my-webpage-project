@@ -9,7 +9,14 @@
 <body>
     <header>
         <!--This is my Nav it is the same in all pages -->>
-        <nav>
+        <nav class="sidebar">
+             <div class="menu-btn"
+                onclick="togglemenu()">
+                 
+        
+             </div>
+             <div class="nav-links"id="navlinks">
+
              
 <hr>
             <a href="index.html">Home</a>
@@ -22,7 +29,13 @@
 
             <a href="contact.html">contact</a>
             <hr>
+            </div>
         </nav>
+        <script>
+            function togglemenu(){
+                document.getElementById("navlinks").classList.toggle("show")
+            }
+        </script>
 
 
 
