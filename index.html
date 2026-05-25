@@ -10,33 +10,24 @@
     <header>
         <!--This is my Nav it is the same in all pages -->>
         <nav class="sidebar">
-             <div class="menu-btn"
-                onclick="togglemenu()">
-                 
-        
-             </div>
-             <div class="nav-links"id="navlinks">
+    <div class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </div>
 
-             
-<hr>
-            <a href="index.html">Home</a>
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
 
-            <a href="About.html">About</a>
-
-            <a href="service.html">services</a>
-
-            <a href="enquiry.html">Enquiry</a>
-
-            <a href="contact.html">contact</a>
-            <hr>
-            </div>
-        </nav>
-        <script>
-            function togglemenu(){
-                document.getElementById("navlinks").classList.toggle("show")
-            }
-        </script>
-
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
+</script>
 
 
     </header>
