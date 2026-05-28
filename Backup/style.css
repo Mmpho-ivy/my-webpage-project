@@ -67,7 +67,7 @@ body{
 
    border-radius: 10px;
     border-width: 2px;
-   background-color: #a88f9d;
+   background-color: #fea3d5;
    text-align: center;
    align-items: center;
    width: 380px;
@@ -198,6 +198,16 @@ form{
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
 .row {
 
     display: flex;
@@ -284,4 +294,4 @@ width: 300px;
 border-radius: 50%;
 border: 10px solid rgb(255, 32, 177);
 
-}
+} 
