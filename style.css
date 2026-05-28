@@ -1,7 +1,7 @@
 body{
     /*margin: 0;*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:rgb(255, 32, 177);
+    background-color:rgb(255, 88, 199);
     align-items: center;
     /*text-align: center;*/
     
@@ -39,13 +39,13 @@ body{
 }
 
 .service-card h2{
-    color: #0077cc;
+    color: #e7a9c0;
 }
 
 .service-card p{
     font-size:large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #555;
+    color: #eae6e6;
 }
 
 
@@ -166,7 +166,7 @@ textarea ::-webkit-scrollbar{
  width: 1em;   
 }
 textarea ::-webkit-scrollbar-thumb{
-background-color: rgb(255, 32, 177);
+background-color: rgb(241, 116, 191);
 }
 .container form #button{
     border: none;
@@ -282,19 +282,19 @@ background-color:rgb(255, 32, 177);
 height: 300px;
 width: 300px;
 border-radius: 50%;
-border: 10px solid rgb(255, 32, 177);
+border: 10px solid rgb(235, 119, 206);
 
 }
 /* Navbar Styling */
 header {
-    background-color: #0077cc; /* blue background */
+    background-color: #34a0ec; /* blue background */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     position: sticky;
     top: 0;
     z-index: 1000;
 }/* Navbar Styling */
 #nav {
-    background-color: red; /* blue background */
+    background-color: #f4f2f4; /* blue background */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     position: sticky;
     top: 0;
@@ -314,5 +314,5 @@ header {
     color: #fff; /* white text */
     padding: 8px 15px;
     border-radius: 25px;
-    background-color: #005fa3; /* darker blue pill background */
+    background-color: #0077cc; /* darker blue pill background */
 }
