@@ -1,7 +1,7 @@
 body{
     /*margin: 0;*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:rgb(255, 32, 177);;
+    background-color:red;
     align-items: center;
     /*text-align: center;*/
     
@@ -292,9 +292,14 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-}
+}/* Navbar Styling */
+#nav {
+    background-color: red; /* blue background */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
-nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,11 +307,11 @@ nav {
     gap: 40px; /* space between links */
 }
 
-nav a {
+#nav span a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: #fff; /* white text for contrast */
+    color: #fff; /* white text */
     padding: 8px 15px;
     border-radius: 25px;
     background-color: #005fa3; /* darker blue pill background */

@@ -1,9 +1,9 @@
 body{
     /*margin: 0;*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:rgb(255, 32, 177);;
+    background-color:rgb(255, 32, 177);
     align-items: center;
-    text-align: center;
+    /*text-align: center;*/
     
 }
 
@@ -67,7 +67,7 @@ body{
 
    border-radius: 10px;
     border-width: 2px;
-   background-color: #fea3d5;
+   background-color: #a88f9d;
    text-align: center;
    align-items: center;
    width: 380px;
@@ -198,16 +198,6 @@ form{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 .row {
 
     display: flex;
@@ -294,4 +284,35 @@ width: 300px;
 border-radius: 50%;
 border: 10px solid rgb(255, 32, 177);
 
-} 
+}
+/* Navbar Styling */
+header {
+    background-color: #0077cc; /* blue background */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}/* Navbar Styling */
+#nav {
+    background-color: red; /* blue background */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    gap: 40px; /* space between links */
+}
+
+#nav span a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* white text */
+    padding: 8px 15px;
+    border-radius: 25px;
+    background-color: #005fa3; /* darker blue pill background */
+}
