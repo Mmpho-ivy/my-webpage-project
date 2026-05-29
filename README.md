@@ -38,3 +38,9 @@ D’Agostino, A., D’Agostino, L., & Dudar, N. (2021). Nail Technician Book: Na
 Tango Learn. (2026, March). 7 Best Nail Tech Books That Artists Swear By.
 
 Top 5 Books Every Nail Technician Should Read. (2026, March).
+
+Schapiro, S. (2020). Milady’s Standard Nail Technology. Cengage Learning.
+
+Young, D. (2019). The Complete Nail Technician (4th ed.). Cengage Learning.
+
+Haberman, E. (2023, July). Best Nail Art & Manicure Books for Beginners + Pros. The Beauty Academy Blog.
